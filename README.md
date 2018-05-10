@@ -1,1 +1,1 @@
-# canada-bot
+# teamop-bot
