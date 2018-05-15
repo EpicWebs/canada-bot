@@ -125,6 +125,9 @@ function botPersonality(client, message) {
 		case messageTextContains(message,"sorry"):
 			message.reply('On behalf of all of Canada Squad, we are sorry too.');
 			break;
+		case messageTextContains(message,"mavericklegend"):
+			message.reply('The man, the legend!');
+			break;
 	}
 }
 
