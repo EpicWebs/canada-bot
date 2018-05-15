@@ -128,6 +128,18 @@ function botPersonality(client, message) {
 		case messageTextContains(message,"mavericklegend"):
 			message.reply('The man, the legend!');
 			break;
+		case messageTextContains(message,"tuque"):
+			message.reply('Cold head, eh?');
+			break;
+		case messageTextContains(message,"two four"):
+			message.reply('Get me a drink too please.');
+			break;
+		case messageTextContains(message,"molson muscle"):
+			message.reply("I've paid good money for my belly!");
+			break;
+		case messageTextContains(message,"moose"):
+			message.reply("The moose is loose aboot this hoose.");
+			break;
 	}
 }
 
